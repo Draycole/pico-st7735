@@ -174,8 +174,12 @@ pico-st7735/
 │   ├── font5x7.c
 │   └── font5x7.h
 ├── examples/
-│   ├── demo/                   main.c  CMakeLists.txt
-│   └── benchmark/              main.c  CMakeLists.txt
+│   ├── demo/
+|   |   ├── main.c
+│   |   └── CMakeLists.txt
+│   └── benchmark/ 
+|       ├── main.c
+│       └── CMakeLists.txt   
 └── docs/
     ├── RESULTS.md              (raw serial printouts, dated)
     └── images/                 demo.jpg, setup.jpg, font.jpg
