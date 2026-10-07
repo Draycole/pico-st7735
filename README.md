@@ -151,7 +151,7 @@ After these steps, shapes and text sit at 80-91% efficiency. The remaining time 
  
 `draw_string` lands a little lower (85%) than rectangles (90%). My hypothesis is that the extra time is the CPU building each pixel row before it is sent, which is not overlapped with the transfer. A double-buffered DMA version would be the way to test that.
  
-## What this does not do (yet)
+## What this does not do (yet) :(
  
 - `draw_pixel` and `draw_filled_circle` go through the single-pixel path (about 22-25 us per pixel at 7.8 MHz) and are not covered by the efficiency numbers above
 - Fixed 128x160 size and a single orientation
