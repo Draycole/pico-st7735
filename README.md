@@ -182,6 +182,7 @@ pico-st7735/
 │       └── CMakeLists.txt   
 └── docs/
     ├── RESULTS.md              (raw serial printouts, dated)
+    ├── ST7735 Datasheet        sitronix datasheet for the st7735 display ic
     └── images/                 demo.jpg, setup.jpg, font.jpg
 ```
  
